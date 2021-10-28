@@ -1,0 +1,17 @@
+.navbar {
+  position: fixed;
+}
+
+.services {
+  background-color: rgb(34, 48, 90);
+}
+.skills {
+  background-color: gray;
+  color: honeydew;
+}
+
+nav
+{
+  opacity:0.7;
+}
+
