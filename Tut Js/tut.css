@@ -1,0 +1,25 @@
+.Head
+{
+    text-align: center;
+    background-color: royalblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*
+{
+    background-color:paleturquoise;
+}
+
+.history
+{
+    border: 2px solid black;
+    width: 220px;
+}
+
+.Tabdeeli
+{
+    color: cadetblue;
+    background-color: crimson;
+    width: 40px;
+    height: 80px;
+}

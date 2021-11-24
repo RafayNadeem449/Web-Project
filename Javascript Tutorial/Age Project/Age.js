@@ -14,22 +14,16 @@ function Ageindayz() {
   document.getElementById("flexbox-result").appendChild(h1);
 }
 
-function Reset() 
-{   
-    document.getElementById("flexbox-result").remove();
+function Reset() {
+  document.getElementById("flexbox-result").remove();
 }
 
+function CatGen() {
+  var image = document.createElement("img");
 
-function CatGen() 
-{
+  var div = document.getElementById("flex-cat");
 
-  var image=document.createElement("img");
-
-  var div=document.getElementById("flex-cat");
-
-  image.src="https://http.cat/[status_code] " ;
+  image.src = "https://http.cat/[status_code] ";
 
   div.appendChild(image);
-  
 }
-
