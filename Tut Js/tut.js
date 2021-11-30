@@ -375,3 +375,81 @@ function Change()
 {
  document.getElementById("Change").innerHTML="<p>This is a Paragraph and We are Converting it from Urdu/Hindi to English</p>";
 }
+
+// let q=document.cookie="username:Rafay Nadeem";
+
+// console.log(q);
+
+// let obj="Harry";
+
+// let o=JSON.parse(obj);
+
+// console.log(o);
+
+// let pox = "[This is Rafay,"
+//   "This is Talha]";
+
+// const obj = JSON.parse(pox); 
+
+// console.log(obj);
+
+
+class care
+{
+  constructor(brand)
+  {
+    this.carname=brand;
+  }
+  carname=12;
+}
+
+let myCar=console.log(new care("Ford"));
+
+
+const myObj= {firstname:"Rafay",secondname:"Nadeem"};
+
+console.log(myObj.firstname);
+
+function naam()
+{
+  console.log("This is America");
+
+}
+
+setTimeout(naam,2000);
+
+
+
+let c=new Promise((resolve,reject) =>
+{
+  let a=1+1;
+
+  if(a==2)
+  {
+    resolve("You are Successfull");
+  }
+  else
+  {
+    reject("Try Again")
+  }
+
+
+})
+
+console.log(c);
+
+async function myFunction() {
+  return "Hello";
+}
+
+console.log(myFunction());
+
+
+async function myDisplay() {
+  let myPromise = new Promise(function(resolve) {
+    setTimeout(function() {resolve("I love You !!");}, 3000);
+  });
+  document.getElementById("para").innerHTML = await myPromise;
+}
+
+myDisplay();
